@@ -26,13 +26,13 @@
 </template>
 
 <script lang="ts" setup>
-const MIT = 'https://github.com/leon-kfd/Dashboard/blob/main/LICENSE'
+const MIT = 'https://github.com/ll911/Dashboard/blob/main/LICENSE'
 const AUTHOR_BLOG = 'https://kongfandong.cn'
-const GITHUB = 'https://github.com/leon-kfd/Dashboard'
-const ISSUE = 'https://github.com/leon-kfd/Dashboard/issues'
+const GITHUB = 'https://github.com/ll911/Dashboard'
+const ISSUE = 'https://github.com/ll911/Dashboard/issues'
 const VIDEO = 'https://www.bilibili.com/video/BV1Vu411Z7i1?share_source=copy_web'
 const INTRODUCTION = 'https://howdz.vercel.app'
-const isWebify = location?.host === 's.kongfandong.cn'
+const isWebify = location?.host === 'start.llou.app'
 </script>
 <style lang="scss" scoped>
 .wrapper {
