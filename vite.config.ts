@@ -6,7 +6,7 @@ import Markdown from 'vite-plugin-md'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.VITE_APP_BUILD_MODE === 'crx' ? './' : '/Dashboard/',
+  base: process.env.VITE_APP_BUILD_MODE === 'crx' ? './' : './',
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
