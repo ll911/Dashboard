@@ -22,11 +22,11 @@ jobs:
       - name: Build Demo
         run: yarn build
       
-      - name: Build CRX file
-        run: yarn build:crx
+#      - name: Build CRX file
+#        run: yarn build:crx
         
-      - name: Move CRX file
-        run: yarn move:crx
+#      - name: Move CRX file
+#        run: yarn move:crx
       
       #- name: Build Electorn file
       #  run: yarn build:electron
